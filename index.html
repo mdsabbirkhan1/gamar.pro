@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gamar</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+ 
+    <!-- Stylesheet -->
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles1.css">
+</head>
+<body>
+  
+ <div id="preloader">
+        <div id="loader"></div>
+    </div>
+  <div id="container">
+    <nav>
+       
+  
+</div>
+  
+<div class="container-fluid">
+<div class="container">
+<div class="search">
+
+<input type="text" name="" id="find" placeholder="search game...." onkeyup="search()">
+</div>
+
+<div class="product-list">
+<div class="product">
+  
+  <img src="https://live.hasthemes.com/html/2/sabujcha-preview/sabujcha/assets/img/product/product-2.jpg">
+
+   <h2 class="text">hfjvvh</h2>
+</div>
+<div class="product">
+<img src="https://live.hasthemes.com/html/2/sabujcha-preview/sabujcha/assets/img/product/product-2.jpg">
+<h2 class="text">Que Harbal Tea</h2>
+</div>
+<div class="product">
+<img src="https://live.hasthemes.com/html/2/sabujcha-preview/sabujcha/assets/img/product/product-3.jpg">
+<h2 class="text">Best Friend Tea</h2>
+
+</div>
+<div class="product">
+<img src="https://live.hasthemes.com/html/2/sabujcha-preview/sabujcha/assets/img/product/product-4.jpg">
+<h2 class="text">Black Ossum Teh1</h2>
+</div>
+<div class="product">
+<img src="https://live.hasthemes.com/html/2/sabujcha-preview/sabujcha/assets/img/product/product-5.jpg">
+<h2 class="text">Socienty Ice Tea</h2>
+</div>
+<div class="product">
+<img src="https://live.hasthemes.com/html/2/sabujcha-preview/sabujcha/assets/img/product/product-6.jpg">
+<h2 class="text">Green Tulsi Tea</h2>
+</div>
+<div class="product">
+<img src="https://live.hasthemes.com/html/2/sabujcha-preview/sabujcha/assets/img/product/product-7.jpg">
+<h2 class="text">Every Spice Tea</h2>
+</div>
+ <div class="product">
+  <a href="https://www.Google.com"><img src="https://live.hasthemes.com/html/2/sabujcha-preview/sabujcha/assets/img/product/product-7.jpg" alt="App 1"></a>
+  <h2 class="text">game</h2>
+  
+</div>
+<div class="product">
+ <a href="https://www.Google.com"><img src="https://live.hasthemes.com/html/2/sabujcha-preview/sabujcha/assets/img/product/product-7.jpg" alt="App 1"></a>
+  <link src="href="www.gamar.pro",">
+<h2 class="text">Instant Tea Mix</h2>
+
+</div>
+</div>
+</div>
+</div>
+<!-- javascript -->
+<script type="text/javascript">
+function search() {
+let filter = document.getElementById('find').value.toUpperCase();
+let item = document.querySelectorAll('.product');
+let l = document.getElementsByTagName('h2');
+for(var i = 0;i<=l.length;i++){
+let a=item[i].getElementsByTagName('h2')[0];
+let value=a.innerHTML || a.innerText || a.textContent;
+if(value.toUpperCase().indexOf(filter) > -1) {
+item[i].style.display="";
+}
+else
+{
+item[i].style.display="none";
+}
+}
+}
+</script>
+<script src="scripts.js"></script>
+</body>
+</html>
